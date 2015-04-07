@@ -6,8 +6,10 @@
             :distribution :repo}
 
   :dependencies [[org.clojure/clojure "1.6.0"]
-                 [org.clojure/clojurescript "0.0-2850"]
-                 [weasel "0.7.0-SNAPSHOT"]]
+                 [org.clojure/clojurescript "0.0-3178"]
+                 [weasel "0.7.0-SNAPSHOT"]
+                 
+                 [org.omcljs/om "0.8.8"]]
 
   :repl-options {:welcome (println "Run (start-weasel) to start a Weasel REPL.")
                  :init (do

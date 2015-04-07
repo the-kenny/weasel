@@ -1,6 +1,8 @@
 (ns weasel-example.example
   (:require [weasel.repl :as repl]
-            [weasel-example.foo :as foo :refer [baz]]))
+            [weasel-example.foo :as foo :refer [baz]]
+
+            [om.core :as om]))
 
 (when-not (repl/alive?)
   (repl/connect "ws://localhost:9001"))
